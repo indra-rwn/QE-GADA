@@ -17,7 +17,6 @@ public class LoginLocator extends BaseLocator {
     public By tabUserNameEmail = getElementByXpath("//*[.=\"Username/Email\"]");
     public By buttonMasukPhone = getElementByXpath("(//*[.=\"Masuk\"])[1]");
     public By buttonMasukEmail = getElementByXpath("(//*[.=\"Masuk\"])[2]");
-    public By textErrorMessage = By.xpath("//p[@class='MuiFormHelperText-root Mui-error']");
     public By alerPhoneNumber = getElementByXpath("//p[@id=\"phoneNumber\"]");
     public By alertEmail = getElementByXpath("//*[@class=\"MuiFormHelperText-root Mui-error MuiFormHelperText-sizeMedium MuiFormHelperText-contained css-1qe7bg7\"]");
 
